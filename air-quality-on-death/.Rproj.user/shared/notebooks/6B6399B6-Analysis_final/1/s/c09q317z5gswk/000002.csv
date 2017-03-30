@@ -1,0 +1,7 @@
+"0","```r
+model_list <- list(PCA_GLMNET = model_glmnet, RF=model_rf, PCA_RF=model_pca_rf, 
+                   NNET=model_nnet, PCA_NNET=model_pca_nnet, LDA_NNET=model_lda_nnet, 
+                   KNN = model_knn, SVM=model_svm, NB=model_nb, LDA_NB=model_lda_nb, XGBOOST=model_xgbLinear)
+resamples <- resamples(model_list)
+
+```"

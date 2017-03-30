@@ -1,0 +1,6 @@
+"0","```r
+model_accuracy
+```"
+"1","GMLNET.Accuracy    LDA.Accuracy     RF.Accuracy   NNET.Accuracy    KNN.Accuracy    SVM.Accuracy 
+      0.6833333       0.5500000       0.8166667       0.7500000       0.6666667       0.6833333 
+"

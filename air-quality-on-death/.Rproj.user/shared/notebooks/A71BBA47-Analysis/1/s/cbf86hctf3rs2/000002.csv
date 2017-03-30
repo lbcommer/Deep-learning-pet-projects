@@ -1,0 +1,9 @@
+"0","boruta_results <- Boruta(mortality_rate~O3+PM10+PM25+NO2+T2M+month+region, train_data)"
+"0","boruta_results"
+"1","Boruta performed 10 iterations in 47.86472 secs.
+"
+"1"," 7 attributes confirmed important: month, NO2, O3, PM10, PM25 and 2 more;
+"
+"1"," No attributes deemed unimportant.
+"
+"0","plot(boruta_results)"

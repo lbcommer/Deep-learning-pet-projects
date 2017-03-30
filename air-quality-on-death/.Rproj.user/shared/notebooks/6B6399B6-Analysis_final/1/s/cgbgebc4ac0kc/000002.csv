@@ -1,0 +1,5 @@
+"0","```r
+pred_svm <- predict(model_svm, test_data)
+cm_svm <- confusionMatrix(pred_svm, test_data$diagnosis, positive = \"M\")
+cm_svm
+```"

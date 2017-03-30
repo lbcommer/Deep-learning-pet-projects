@@ -1,0 +1,5 @@
+"0","```r
+g_pc1 <- ggplot(pca_df, aes(x=PC1, fill=data$diagnosis)) + geom_density(alpha=0.25)  
+g_pc2 <- ggplot(pca_df, aes(x=PC2, fill=data$diagnosis)) + geom_density(alpha=0.25)  
+grid.arrange(g_pc1, g_pc2, ncol=2)
+```"

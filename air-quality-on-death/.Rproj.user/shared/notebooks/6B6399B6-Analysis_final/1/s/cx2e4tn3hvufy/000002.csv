@@ -1,0 +1,5 @@
+"0","```r
+
+train_data_pca <- data_pca[data_index, ]
+test_data_pca <- data_pca[-data_index, ]
+```"

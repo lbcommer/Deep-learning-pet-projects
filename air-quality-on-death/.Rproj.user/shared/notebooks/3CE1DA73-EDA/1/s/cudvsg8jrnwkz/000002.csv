@@ -1,0 +1,5 @@
+"0","```r
+cont_vars <- numeric_var[2:length(numeric_var)]
+correlations <- cor(na.omit(train[, cont_vars]))
+corrplot(correlations, method=\"square\")
+```"

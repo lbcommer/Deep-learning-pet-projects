@@ -1,0 +1,6 @@
+"0","pred_rf2 <- predict(model_rf2, newdata = test_data)"
+"0","rmse(test_data$mortality_rate, pred_rf2)"
+"1","[1]"
+"1"," 0.2142071"
+"1","
+"

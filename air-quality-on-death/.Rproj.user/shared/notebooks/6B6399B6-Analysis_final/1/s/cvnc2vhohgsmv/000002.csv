@@ -1,0 +1,5 @@
+"0","```r
+pred_prob_knn <- predict(model_knn, test_data, type=\"prob\")
+roc_knn <- roc(test_data$diagnosis, pred_prob_knn$M)
+plot(roc_knn)
+```"

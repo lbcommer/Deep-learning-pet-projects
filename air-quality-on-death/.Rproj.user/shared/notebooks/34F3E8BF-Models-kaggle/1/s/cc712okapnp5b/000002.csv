@@ -1,0 +1,11 @@
+"0","```r
+model_confmat <- lapply(model_list, function(x) confusionMatrix(predict(x, test_data), test_data$Type))
+model_accuracy <- sapply(model_confmat, function(x) x$overall['Accuracy'])
+model_mean_F1 <- sapply(model_confmat, function(x) mean(x$byClass[,'F1']))
+model_class_F1 <- lapply(model_confmat, function(x) x$byClass[,'F1'])
+model_class_F1_df <- do.call(cbind, model_class_F1) %>% as.data.frame()
+model_class_F1_df[is.na(model_class_F1_df)] <- 0
+model_class_F1_df$Type <- levels(data$Type)
+rownames(model_class_F1_df) <- NULL
+model_class_F1_df
+```"

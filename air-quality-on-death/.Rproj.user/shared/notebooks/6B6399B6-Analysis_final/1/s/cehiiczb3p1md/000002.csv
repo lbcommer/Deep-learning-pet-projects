@@ -1,0 +1,10 @@
+"0","```r
+
+model_knn <- train(diagnosis~.,
+                   train_data,
+                   method=\"knn\",
+                   metric=\"ROC\",
+                   preProcess = c('center', 'scale'),
+                   tuneLength=10,
+                   trControl=fitControl)
+```"

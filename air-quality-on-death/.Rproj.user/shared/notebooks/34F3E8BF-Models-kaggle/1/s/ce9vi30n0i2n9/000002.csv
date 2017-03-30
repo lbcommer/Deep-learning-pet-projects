@@ -1,0 +1,16 @@
+"0","```r
+library(readr)
+library(caret)
+library(caretEnsemble)
+library(corrplot)
+library(MASS)
+library(glmnet)
+library(ranger)
+library(e1071)
+library(plyr)
+library(dplyr)
+library(tidyr)
+library(doMC)
+registerDoMC(cores = detectCores() - 1)
+#registerDoMC(cores = 4)
+```"

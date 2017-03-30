@@ -1,0 +1,7 @@
+"0","stack_glm_pred <- predict(stack_glm, newdata=test_data)"
+"0","stack_glm_rmse <- rmse(test_data$mortality_rate, stack_glm_pred)"
+"0","stack_glm_rmse"
+"1","[1]"
+"1"," 0.184563"
+"1","
+"

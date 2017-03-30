@@ -1,0 +1,2 @@
+"0","model_list <- list(RF=model_rf3, XGBOOST=model_xgboost2, KNN=model_knn, NNET=model_nnet, GMLNET=model_glmnet)"
+"0","resamples <- resamples(model_list)"

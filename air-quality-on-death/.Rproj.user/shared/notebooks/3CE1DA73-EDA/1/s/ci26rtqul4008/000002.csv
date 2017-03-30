@@ -1,0 +1,7 @@
+"0","```r
+train$MSSubClass <- as.factor(train$MSSubClass)
+train$OverallQual <- as.factor(train$OverallQual)
+train$OverallCond <- as.factor(train$OverallCond)
+#train$YearBuilt <- as.factor(train$YearBuilt)
+#train$YearRemodAdd <- as.factor(train$YearRemodAdd)
+```"

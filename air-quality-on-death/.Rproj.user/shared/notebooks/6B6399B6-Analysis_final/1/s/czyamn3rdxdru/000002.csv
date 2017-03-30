@@ -1,0 +1,9 @@
+"0","```r
+model_svm <- train(diagnosis~.,
+                    train_data,
+                    method=\"svmRadial\",
+                    metric=\"ROC\",
+                    preProcess=c('center', 'scale'),
+                    trace=FALSE,
+                    trControl=fitControl)
+```"

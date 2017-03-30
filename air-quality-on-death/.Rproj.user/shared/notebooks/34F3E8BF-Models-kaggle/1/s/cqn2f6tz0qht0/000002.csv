@@ -1,0 +1,6 @@
+"0","```r
+model_mean_F1
+```"
+"1","   GMLNET       LDA        RF      NNET       KNN       SVM 
+       NA       NaN 0.7794906 0.7799431 0.7271242        NA 
+"

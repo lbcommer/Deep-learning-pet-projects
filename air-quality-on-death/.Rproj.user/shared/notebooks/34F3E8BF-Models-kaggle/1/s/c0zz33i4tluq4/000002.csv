@@ -1,0 +1,23 @@
+"0","# we omit this because takes a lot of time and kernel dies.
+
+xgb_grid_1 = expand.grid(
+  nrounds = 1000,
+  eta = 0.01,
+  max_depth = 8,
+  gamma = 1,
+  colsample_bytree = 1,
+  min_child_weight = 1,
+  subsample = 1
+)
+
+fit_xgboost <- train (Type~.,
+                      train_data,
+                      method = \"xgbTree\",
+                      tuneGrid=xgb_grid_1,
+                      #tuneLength=20,
+                      metric=\"Mean_F1\",
+                      preProc=c(\"center\", \"scale\"),
+                      trControl = fitControl)
+  
+pred_xgboost <- predict(fit_xgboost, test_data)                           
+confusionMatrix(pred_xgboost, test_data$Type) "

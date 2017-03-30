@@ -1,0 +1,14 @@
+"0","```r
+#setwd(\"src/\")
+data <- read.csv(\"../input/glass.csv\")
+data <- data[!duplicated(data),]
+# tree models don't like numbers as factor levels, so we change them:
+data$Type <- make.names(data$Type)
+data$Type <- as.factor(data$Type)
+# cleaning: remove duplicated rows
+data <- data[!duplicated(data),]
+set.seed(1234)
+split_data <- createDataPartition(data$Type, p = 0.7, list = FALSE)
+train_data <- data[split_data,]
+test_data <- data[-split_data,]
+```"

@@ -1,0 +1,6 @@
+"0","pred_knn <- predict(model_knn, newdata = test_data)"
+"0","rmse(test_data$mortality_rate, pred_knn)"
+"1","[1]"
+"1"," 0.1963604"
+"1","
+"

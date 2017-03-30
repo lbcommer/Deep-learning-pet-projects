@@ -1,0 +1,4 @@
+"0","```r
+cm_list_results <- sapply(cm_list, function(x) x$byClass)
+cm_list_results
+```"

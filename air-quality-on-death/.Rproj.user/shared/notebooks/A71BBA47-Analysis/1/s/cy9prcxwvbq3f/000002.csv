@@ -1,0 +1,6 @@
+"0","stack_glm <- caretStack("
+"0","              model_list_big, "
+"0","              method=""glm"", "
+"0","              metric=""RMSE"", "
+"0","              trControl=stackControl"
+"0","            )"

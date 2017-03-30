@@ -1,0 +1,5 @@
+"0","```r
+pred_glmnet <- predict(model_glmnet, test_data_pca)
+cm_glmnet <- confusionMatrix(pred_glmnet, test_data_pca$diagnosis, positive = \"M\")
+cm_glmnet
+```"

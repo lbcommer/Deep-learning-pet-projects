@@ -1,0 +1,6 @@
+"0","```r
+skewness(train$SalePrice)
+shapiro.test(train$SalePrice)
+qqnorm(train$SalePrice)
+qqline(train$SalePrice, col = 2)
+```"

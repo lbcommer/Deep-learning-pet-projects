@@ -1,0 +1,4 @@
+"0","```r
+pca_res <- prcomp(data[,3:ncol(data)])
+plot(pca_res, type=\"l\")
+```"

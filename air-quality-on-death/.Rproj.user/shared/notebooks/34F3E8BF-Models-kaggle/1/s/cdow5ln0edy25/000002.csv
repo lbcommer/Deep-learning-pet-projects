@@ -1,0 +1,9 @@
+"0","```r
+#https://topepo.github.io/caret/subsampling-for-class-imbalances.html
+train_data <- upSample(train_data[,-10], train_data$Type, yname=\"Type\")
+table(train_data$Type)
+```"
+"1","
+X1 X2 X3 X5 X6 X7 
+54 54 54 54 54 54 
+"

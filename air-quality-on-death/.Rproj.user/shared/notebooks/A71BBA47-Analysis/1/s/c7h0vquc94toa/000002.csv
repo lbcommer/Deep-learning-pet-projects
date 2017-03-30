@@ -1,0 +1,6 @@
+"0","model_rf3 <- train(mortality_rate~O3+PM10+PM25+NO2+T2M+month+region,"
+"0","                      train_data,"
+"0","                      method=""ranger"","
+"0","                      metric=""RMSE"","
+"0","                      tuneGrid=expand.grid(.mtry=2),"
+"0","                      trControl=fitControl)"

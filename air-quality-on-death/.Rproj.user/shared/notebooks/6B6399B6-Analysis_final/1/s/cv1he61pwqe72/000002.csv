@@ -1,0 +1,13 @@
+"0","```r
+library(needs)
+needs(readr,
+      dplyr,
+      ggplot2,
+      corrplot,
+      gridExtra,
+      pROC,
+      MASS,
+      caret,
+      doMC)
+registerDoMC(cores = 3)
+```"

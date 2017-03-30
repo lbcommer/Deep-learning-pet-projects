@@ -1,0 +1,7 @@
+"0","stackControl <- trainControl(method=""cv"", number=5, savePredictions=TRUE)"
+"0","stack_rf <- caretStack("
+"0","              model_list_big, "
+"0","              method=""rf"", "
+"0","              metric=""RMSE"", "
+"0","              trControl=stackControl"
+"0","            )"

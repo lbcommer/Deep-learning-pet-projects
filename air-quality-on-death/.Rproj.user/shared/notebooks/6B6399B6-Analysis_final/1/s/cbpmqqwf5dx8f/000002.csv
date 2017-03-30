@@ -1,0 +1,5 @@
+"0","```r
+data$diagnosis <- as.factor(data$diagnosis)
+# the 33 column is not right
+data[,33] <- NULL
+```"

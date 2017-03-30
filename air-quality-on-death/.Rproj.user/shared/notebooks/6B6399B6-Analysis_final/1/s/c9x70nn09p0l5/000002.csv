@@ -1,0 +1,9 @@
+"0","```r
+model_lda <- train(diagnosis~.,
+                       train_data_lda,
+                       method=\"lda2\",
+                       #tuneLength = 10,
+                       metric=\"ROC\",
+                       preProc = c(\"center\", \"scale\"),
+                       trControl=fitControl)
+```"

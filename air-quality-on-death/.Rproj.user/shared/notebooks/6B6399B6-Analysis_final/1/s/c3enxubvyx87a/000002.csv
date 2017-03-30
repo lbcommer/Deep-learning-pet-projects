@@ -1,0 +1,10 @@
+"0","```r
+model_pca_rf <- train(diagnosis~.,
+                  train_data_pca,
+                  method=\"ranger\",
+                  metric=\"ROC\",
+                  #tuneLength=10,
+                  #tuneGrid = expand.grid(mtry = c(2, 3, 6)),
+                  preProcess = c('center', 'scale'),
+                  trControl=fitControl)
+```"

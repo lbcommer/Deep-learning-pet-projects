@@ -1,0 +1,7 @@
+"0","model_xgboost2 <- train(mortality_rate~O3+PM10+PM25+NO2+T2M+month,"
+"0","                      train_data,"
+"0","                      method = ""xgbTree"", "
+"0","                      metric = ""RMSE"","
+"0","                      tuneGrid = xgb_grid_1,"
+"0","			          trControl = fitControl"
+"0",")"

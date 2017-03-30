@@ -1,0 +1,10 @@
+"0","```r
+model_pca_nnet <- train(diagnosis~.,
+                    train_data_pca,
+                    method=\"nnet\",
+                    metric=\"ROC\",
+                    preProcess=c('center', 'scale'),
+                    tuneLength=10,
+                    trace=FALSE,
+                    trControl=fitControl)
+```"

@@ -1,0 +1,46 @@
+"0","```r
+fit_glmnet <- train (Type~.,
+                 train_data,
+                 method = \"glmnet\",
+                 tuneGrid = expand.grid(
+                    .alpha = 1,
+                    .lambda = 0.0002343928),
+                 metric=\"Mean_F1\",
+                 preProc=c(\"center\", \"scale\"),
+                 trControl = fitControl)
+pred_glmnet <- predict(fit_glmnet, test_data)                           
+confusionMatrix(pred_glmnet, test_data$Type) 
+```"
+"1","Confusion Matrix and Statistics
+
+          Reference
+Prediction X1 X2 X3 X5 X6 X7
+        X1 14  5  0  0  0  0
+        X2  3 13  1  1  0  0
+        X3  3  4  4  1  0  0
+        X5  0  0  0  0  0  0
+        X6  0  0  0  0  2  0
+        X7  0  0  0  1  0  8
+
+Overall Statistics
+                                          
+               Accuracy : 0.6833          
+                 95% CI : (0.5504, 0.7974)
+    No Information Rate : 0.3667          
+    P-Value [Acc > NIR] : 6.382e-07       
+                                          
+                  Kappa : 0.5759          
+ Mcnemar's Test P-Value : NA              
+
+Statistics by Class:
+
+                     Class: X1 Class: X2 Class: X3 Class: X5 Class: X6 Class: X7
+Sensitivity             0.7000    0.5909   0.80000      0.00   1.00000    1.0000
+Specificity             0.8750    0.8684   0.85455      1.00   1.00000    0.9808
+Pos Pred Value          0.7368    0.7222   0.33333       NaN   1.00000    0.8889
+Neg Pred Value          0.8537    0.7857   0.97917      0.95   1.00000    1.0000
+Prevalence              0.3333    0.3667   0.08333      0.05   0.03333    0.1333
+Detection Rate          0.2333    0.2167   0.06667      0.00   0.03333    0.1333
+Detection Prevalence    0.3167    0.3000   0.20000      0.00   0.03333    0.1500
+Balanced Accuracy       0.7875    0.7297   0.82727      0.50   1.00000    0.9904
+"

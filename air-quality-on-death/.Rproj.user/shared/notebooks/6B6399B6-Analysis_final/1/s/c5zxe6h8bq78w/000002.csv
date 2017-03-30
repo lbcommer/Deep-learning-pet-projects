@@ -1,0 +1,4 @@
+"0","```r
+lda_res <- lda(diagnosis~., data, center = TRUE, scale = TRUE) 
+lda_df <- predict(lda_res, data)$x %>% as.data.frame() %>% cbind(diagnosis=data$diagnosis)
+```"

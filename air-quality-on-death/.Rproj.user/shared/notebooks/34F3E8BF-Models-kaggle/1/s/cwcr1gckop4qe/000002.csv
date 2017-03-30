@@ -1,0 +1,9 @@
+"0","```r
+fitControl <- trainControl(method = \"repeatedcv\",
+                           #method = \"cv\",    
+                           number = 10,
+                           repeats = 2,
+                           savePredictions=\"final\",
+                           classProbs = TRUE
+                           )
+```"

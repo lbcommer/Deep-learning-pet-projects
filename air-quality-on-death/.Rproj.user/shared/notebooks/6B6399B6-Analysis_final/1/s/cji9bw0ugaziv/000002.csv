@@ -1,0 +1,5 @@
+"0","```r
+pred_xgbLinear <- predict(model_xgbLinear, test_data)
+cm_xgbLinear <- confusionMatrix(pred_xgbLinear, test_data$diagnosis, positive = \"M\")
+cm_xgbLinear
+```"

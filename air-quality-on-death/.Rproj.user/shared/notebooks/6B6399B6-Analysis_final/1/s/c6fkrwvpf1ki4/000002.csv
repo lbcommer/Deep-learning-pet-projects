@@ -1,0 +1,5 @@
+"0","```r
+pred_pca_rf <- predict(model_pca_rf, test_data_pca)
+cm_pca_rf <- confusionMatrix(pred_pca_rf, test_data_pca$diagnosis, positive = \"M\")
+cm_pca_rf
+```"

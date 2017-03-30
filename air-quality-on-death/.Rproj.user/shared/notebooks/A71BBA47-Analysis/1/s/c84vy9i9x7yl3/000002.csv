@@ -1,0 +1,1 @@
+"0","ggplot(training, aes(x=region, y=mortality_rate, fill=region)) + geom_boxplot()"

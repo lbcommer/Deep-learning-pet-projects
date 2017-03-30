@@ -1,0 +1,4 @@
+"0","```r
+numeric_var <- names(train)[which(sapply(train, is.numeric))]
+factor_var <- names(train)[!(names(train) %in% numeric_var)]
+```"

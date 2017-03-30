@@ -1,0 +1,4 @@
+"0","```r
+summary(train$SalePrice)
+boxplot(train$SalePrice)
+```"
