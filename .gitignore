@@ -1,3 +1,7 @@
+.ipynb_checkpoints
+.DS_Store
+.Rhistory
+.Rproj.user/
 */.ipynb_checkpoints/*
 */.DS_Store/*
 */.Rhistory/*
