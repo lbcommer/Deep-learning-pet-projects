@@ -1,5 +1,0 @@
-"0","```r
-pred_prob_glmnet <- predict(model_glmnet, test_data_pca, type = \"prob\")
-roc_glmnet <- roc(test_data_pca$diagnosis, pred_prob_glmnet$M)
-plot(roc_glmnet)
-```"

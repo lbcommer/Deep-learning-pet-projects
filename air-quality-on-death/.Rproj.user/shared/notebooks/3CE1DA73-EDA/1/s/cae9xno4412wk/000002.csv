@@ -1,6 +1,0 @@
-"0","```r
-which(apply(train, 2, function(x) any(is.na(x)))==TRUE)
-all_vars_napercent <- apply(train, 2, function(x) round(sum(is.na(x))/nrow(train), 3))
-naVars <- names(train)[which(apply(train, 2, function(x) round(sum(is.na(x))/nrow(train), 3))>0)]
-sort(all_vars_napercent[naVars], decreasing = TRUE)
-```"

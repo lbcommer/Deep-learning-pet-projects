@@ -1,2 +1,0 @@
-"0","cor_vars <- cor(training_numeric[complete.cases(training_numeric),])"
-"0","corrplot(cor_vars)"

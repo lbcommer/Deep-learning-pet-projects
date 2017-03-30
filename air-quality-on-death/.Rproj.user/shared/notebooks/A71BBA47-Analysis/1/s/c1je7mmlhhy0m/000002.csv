@@ -1,1 +1,0 @@
-"0","ggplot(training, aes(x=date, y=O3)) + geom_point()"

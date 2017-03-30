@@ -1,3 +1,0 @@
-"0","```r
-data <- read_csv(\"../input/data.csv\")
-```"

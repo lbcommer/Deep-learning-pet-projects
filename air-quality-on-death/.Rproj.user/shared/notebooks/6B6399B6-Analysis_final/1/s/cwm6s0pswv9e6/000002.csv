@@ -1,9 +1,0 @@
-"0","```r
-model_glmnet <- train(diagnosis~.,
-                   train_data_pca,
-                   method=\"glmnet\",
-                   metric = \"ROC\",
-                   tuneLength = 10,
-                   preProc = c(\"center\", \"scale\"),
-                   trControl=fitControl)
-```"

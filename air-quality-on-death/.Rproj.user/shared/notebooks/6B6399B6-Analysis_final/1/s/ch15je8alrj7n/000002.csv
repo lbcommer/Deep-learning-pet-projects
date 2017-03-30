@@ -1,3 +1,0 @@
-"0","```r
-ggplot(lda_df, aes(x=LD1, fill=diagnosis)) + geom_density(alpha=0.5)
-```"

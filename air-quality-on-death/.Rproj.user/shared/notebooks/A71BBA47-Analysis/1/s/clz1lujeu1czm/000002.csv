@@ -1,2 +1,0 @@
-"0","training$month <- month(training$date)"
-"0","testing$month <- month(testing$date)"

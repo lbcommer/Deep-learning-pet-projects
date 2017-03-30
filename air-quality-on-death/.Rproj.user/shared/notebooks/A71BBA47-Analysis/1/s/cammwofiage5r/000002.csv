@@ -1,7 +1,0 @@
-"0","# Generate predictions"
-"0","results <- predict(stack_rf, newdata = testing)"
-"0","# Assemble results"
-"0","df <- data.frame(Id = testing$Id,"
-"0","                 mortality_rate = results)"
-"0","# Write submission"
-"0","write.csv(df, ""../output/submission_4.csv"", row.names = FALSE)"

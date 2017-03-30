@@ -1,4 +1,0 @@
-"0","```r
-pred_bc_glment <- ifelse(pred_prob_glmnet$M < best_cutoff, \"B\", \"M\")
-pred_bc_glment <- as.factor(pred_bc_glment)
-```"

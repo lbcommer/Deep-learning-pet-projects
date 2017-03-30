@@ -1,4 +1,0 @@
-"0","```r
-train_data_lda <- lda_df[data_index,]
-test_data_lda <- lda_df[-data_index,]
-```"

@@ -1,3 +1,0 @@
-"0","```r
-doPlots(train[,numeric_var], fun = plotDen, ii = 2:9, ncol = 2)
-```"

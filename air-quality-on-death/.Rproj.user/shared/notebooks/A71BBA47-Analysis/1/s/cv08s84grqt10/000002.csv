@@ -1,5 +1,0 @@
-"0","set.seed(1234)"
-"0","training_complete <- training %>% filter(year(date) >= 2009) "
-"0","dindex <- createDataPartition(training_complete$mortality_rate, p=0.7, list=FALSE)"
-"0","train_data <- training_complete[dindex,]"
-"0","test_data <- training_complete[-dindex,]"

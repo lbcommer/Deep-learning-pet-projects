@@ -1,4 +1,0 @@
-"0","```r
-pca_df <- as.data.frame(pca_res$x)
-ggplot(pca_df, aes(x=PC1, y=PC2, col=data$diagnosis)) + geom_point(alpha=0.5)
-```"

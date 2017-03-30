@@ -1,3 +1,0 @@
-"0","```r
-data_pca <- cbind(pca_df[,c(\"PC1\", \"PC2\")], diagnosis=data$diagnosis)
-```"

@@ -1,3 +1,0 @@
-"0","gld1 <- ggplot(training, aes(x=mortality_rate)) + geom_density()"
-"0","gld2 <- ggplot(training, aes(x=1, y=mortality_rate)) + geom_boxplot()"
-"0","grid.arrange(gld1, gld2, ncol=2)"

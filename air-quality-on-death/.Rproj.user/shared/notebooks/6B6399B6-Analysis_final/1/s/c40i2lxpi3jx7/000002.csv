@@ -1,6 +1,0 @@
-"0","```r
-output_report <- data.frame(metric=names(cm_results_max), best_model=colnames(cm_list_results)[cm_results_max],
-                            value=mapply(function(x,y) {cm_list_results[x,y]}, names(cm_results_max), cm_results_max))
-rownames(output_report) <- NULL
-output_report
-```"

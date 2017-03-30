@@ -1,4 +1,0 @@
-"0","```r
-cm_bc_glmnet <- confusionMatrix(pred_bc_glment, test_data_pca$diagnosis, positive = \"M\")
-cm_bc_glmnet
-```"

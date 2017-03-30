@@ -1,6 +1,0 @@
-"0","```r
-fitControl <- trainControl(method=\"cv\",
-                            number = 5,
-                            classProbs = TRUE,
-                            summaryFunction = twoClassSummary)
-```"

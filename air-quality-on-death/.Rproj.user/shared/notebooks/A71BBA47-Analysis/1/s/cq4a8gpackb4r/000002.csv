@@ -1,7 +1,0 @@
-"0","stack_rf_pred <- predict(stack_rf, newdata =test_data)"
-"0","stack_rf_rmse <- rmse(test_data$mortality_rate, stack_rf_pred)"
-"0","stack_rf_rmse"
-"1","[1]"
-"1"," 0.189127"
-"1","
-"

@@ -1,3 +1,0 @@
-"0","```r
-bwplot(resamples, metric=\"ROC\")
-```"

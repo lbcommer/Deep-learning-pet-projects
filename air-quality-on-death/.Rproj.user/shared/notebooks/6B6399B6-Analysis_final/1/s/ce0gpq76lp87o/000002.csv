@@ -1,5 +1,0 @@
-"0","```r
-pred_rf <- predict(model_rf, test_data)
-cm_rf <- confusionMatrix(pred_rf, test_data$diagnosis, positive = \"M\")
-cm_rf
-```"

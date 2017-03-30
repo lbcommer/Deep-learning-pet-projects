@@ -1,6 +1,0 @@
-"0","fit_xgboost_pred <- predict(fit_xgboost, test_data)"
-"0","rmse(test_data$mortality_rate, fit_xgboost_pred)"
-"1","[1]"
-"1"," 0.2286845"
-"1","
-"

@@ -1,5 +1,0 @@
-"0","```r
-pred_lda <- predict(model_lda, test_data_lda)
-cm_lda <- confusionMatrix(pred_lda, test_data_lda$diagnosis, positive = \"M\")
-cm_lda
-```"

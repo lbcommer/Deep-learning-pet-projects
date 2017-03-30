@@ -1,1 +1,0 @@
-"0","training_numeric <- training[,setdiff(names(training), c('Id', 'region', 'date'))]"

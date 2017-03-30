@@ -1,9 +1,0 @@
-"0","```r
-model_xgbLinear <- train(diagnosis~.,
-                    train_data,
-                    method=\"xgbLinear\",
-                    metric=\"ROC\",
-                    tuneLength=10,
-                    preProcess=c('center', 'scale'),
-                    trControl=fitControl)
-```"

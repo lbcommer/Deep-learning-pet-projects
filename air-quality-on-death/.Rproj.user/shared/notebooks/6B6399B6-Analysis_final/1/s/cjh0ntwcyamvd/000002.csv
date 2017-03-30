@@ -1,4 +1,0 @@
-"0","```r
-corr_mat <- cor(data[,3:ncol(data)])
-corrplot(corr_mat)
-```"

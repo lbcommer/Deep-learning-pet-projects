@@ -1,3 +1,0 @@
-"0","```r
-train <- read.csv(\"../input/train.csv\")
-```"

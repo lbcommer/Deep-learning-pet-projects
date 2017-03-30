@@ -1,2 +1,0 @@
-"0","training$date <- ymd(training$date)"
-"0","testing$date <- ymd(testing$date)"

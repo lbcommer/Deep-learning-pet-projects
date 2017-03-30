@@ -1,6 +1,0 @@
-"0","pred_nnet <- predict(model_nnet, newdata = test_data)"
-"0","rmse(test_data$mortality_rate, pred_nnet)"
-"1","[1]"
-"1"," 0.1903956"
-"1","
-"

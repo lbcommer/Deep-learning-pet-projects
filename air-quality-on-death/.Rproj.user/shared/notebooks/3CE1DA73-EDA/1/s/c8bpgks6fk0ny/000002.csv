@@ -1,8 +1,0 @@
-"0","```r
-logSalePrice <- log(train$SalePrice)
-hist(logSalePrice)
-skewness(logSalePrice)
-shapiro.test(logSalePrice)
-qqnorm(logSalePrice)
-qqline(logSalePrice, col = 2)
-```"

@@ -1,6 +1,0 @@
-"0","```r
-cm_list <- list(PCA_GLMNET = cm_glmnet, RF=cm_rf, PCA_RF=cm_pca_rf, 
-                   NNET=cm_nnet, PCA_NNET=cm_pca_nnet, LDA_NNET=cm_lda_nnet, 
-                   KNN = cm_knn, SVM=cm_svm, NB=cm_nb, LDA_NB=cm_lda_nb, XGBOOST=cm_xgbLinear)
-
-```"

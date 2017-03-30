@@ -1,6 +1,0 @@
-"0","pred_nnet_glm <- predict(stack_glm$models$FIT_nnet, newdata = test_data)"
-"0","rmse(test_data$mortality_rate, pred_nnet_glm)"
-"1","[1]"
-"1"," 0.1858526"
-"1","
-"

@@ -1,9 +1,0 @@
-"0","```r
-model_nb <- train(diagnosis~.,
-                    train_data,
-                    method=\"nb\",
-                    metric=\"ROC\",
-                    preProcess=c('center', 'scale'),
-                    trace=FALSE,
-                    trControl=fitControl)
-```"

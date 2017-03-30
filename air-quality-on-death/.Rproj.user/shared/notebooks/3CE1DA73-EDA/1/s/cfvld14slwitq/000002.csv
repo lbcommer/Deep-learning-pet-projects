@@ -1,7 +1,0 @@
-"0","```r
-library(VIM)
-mice_plot <- aggr(train, col=c('navyblue','yellow'),
-                    numbers=TRUE, sortVars=TRUE,
-                    labels=names(train), cex.axis=.7,
-                    gap=3, ylab=c(\"Missing data\",\"Pattern\"))
-```"

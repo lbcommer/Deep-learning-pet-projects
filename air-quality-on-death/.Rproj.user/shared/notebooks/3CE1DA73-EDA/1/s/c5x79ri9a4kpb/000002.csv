@@ -1,4 +1,0 @@
-"0","```r
-vars_variance <- nearZeroVar(train, saveMetrics = TRUE, freqCut = 99/1, uniqueCut = 1)
-vars_variance[vars_variance[,\"zeroVar\"] + vars_variance[,\"nzv\"] > 0, ] 
-```"

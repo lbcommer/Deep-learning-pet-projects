@@ -1,5 +1,0 @@
-"0","```r
-pred_prob_lda <- predict(model_lda, test_data_lda, type=\"prob\")
-roc_lda <- roc(test_data_lda$diagnosis, pred_prob_lda$M)
-plot(roc_lda)
-```"

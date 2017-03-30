@@ -1,2 +1,0 @@
-"0","training <- read.csv(""../input/train.csv"")"
-"0","testing <- read.csv(""../input/test.csv"")"

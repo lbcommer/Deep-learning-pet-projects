@@ -1,6 +1,0 @@
-"0","```r
-set.seed(1234)
-data_index <- createDataPartition(data$diagnosis, p=0.7, list = FALSE)
-train_data <- data[data_index, -1]
-test_data <- data[-data_index, -1]
-```"

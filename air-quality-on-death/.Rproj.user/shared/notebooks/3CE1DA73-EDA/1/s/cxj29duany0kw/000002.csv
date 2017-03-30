@@ -1,3 +1,0 @@
-"0","```r
-doPlots(train[,factor_var], fun = plotHist, ii  = 5:9, ncol = 2)
-```"
